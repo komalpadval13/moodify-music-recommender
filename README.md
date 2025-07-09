@@ -74,11 +74,11 @@ is a web application built using Flask that intelligently detects a user's mood 
          pip install -r requirements.txt
 
   3. Configure API Keys
-     Replace the placeholders in music_recommender.py with your own credentials:␣␣  
-     Spotify: Get from Spotify Developer Dashboard ␣␣  
-     YouTube: Get from Google Cloud Console␣␣  
+     - Replace the placeholders in music_recommender.py with your own credentials: 
+     - Spotify: Get from Spotify Developer Dashboard 
+     - YouTube: Get from Google Cloud Console 
 
-     replace it with your API keys 
+     - replace it with your API keys 
 
          SPOTIFY_CLIENT_ID = 'your_client_id'
          SPOTIFY_CLIENT_SECRET = 'your_client_secret'
