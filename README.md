@@ -43,21 +43,36 @@ is a web application built using Flask that intelligently detects a user's mood 
 ## 📁 Project Structure
 
 moodify/
-├── app.py
-├── modules/
-│ ├── auth_module.py
-│ ├── emotion_detector.py
-│ ├── music_recommender.py
-│ └── history_tracker.py
-├── templates/
-│ ├── login.html
-│ ├── index.html
-│ ├── result.html
-│ └── history.html
-├── static/
-│ └── style.css
-├── requirements.txt
-└── .gitignore
+
+  app.py
+
+  modules/
+
+      auth_module.py
+
+      emotion_detector.py
+
+      music_recommender.py
+
+      history_tracker.py
+
+  templates/
+
+      login.html
+
+      index.html
+
+      result.html
+
+      history.html
+
+  static/
+
+      style.css
+
+  requirements.txt
+  
+  .gitignore
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 
@@ -73,47 +88,56 @@ moodify/
   3. Configure API Keys
      Replace the placeholders in music_recommender.py with your own credentials:
 
-    Spotify: Get from Spotify Developer Dashboard
-    YouTube: Get from Google Cloud Console
-    replace it with your API keys 
+  Spotify: Get from Spotify Developer Dashboard
+  YouTube: Get from Google Cloud Console
+  replace it with your API keys 
 
     SPOTIFY_CLIENT_ID = 'your_client_id'
     SPOTIFY_CLIENT_SECRET = 'your_client_secret'
     YOUTUBE_API_KEY = 'your_youtube_api_key'
 
-    5. Run the Flask app using the below command
+  5. Run the Flask app using the below command
 
       python app.py
 
-      Navigate to http://127.0.0.1:5000 in your browser.
+    Navigate to http://127.0.0.1:5000 in your browser.
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 # 📸 Screenshots
 
 🔐 Login Page
+
 ![Login](assets/screenshots/login.jpg)
 
 😊 Mood Input Page
+
 ![Mood Input](assets/screenshots/mood_input.jpg)
 
 Mood History Page
+
 ![history](assets/screenshots/history.jpg)
 
 🎵 Recommendation Result Page - Spotify
+
 ![Result 1](assets/screenshots/result1.jpg)
 
 🎬 Recommendation Result Page - YouTube
+
 ![Result 2](assets/screenshots/result2.jpg)
 
 🎶 Recommendation Result Page - Final UI
+
 ![Result 3](assets/screenshots/result3.jpg)
 
 ----------------------------------------------------------------------------------------------------------------------------------------
-👩‍💻 Author
+👩‍💻 **Author**
+
  Komal Padval
+
 Bachelor of Engineering in AI & Data Science
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 
- 📃 License
+ 📃 **License**
+
  This project is intended for educational and academic use only.
