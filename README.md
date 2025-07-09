@@ -62,36 +62,28 @@ moodify/
 ---------------------------------------------------------------------------------------------------------------------------------------
 
 
-🧪 Setup Instructions
- 1. Clone the repository
-
-git clone https://github.com/your-username/moodify.git
-cd moodify
-
-2. (Optional) Create and activate a virtual environment
-python -m venv venv
-venv\Scripts\activate  # For Windows
-# OR
-source venv/bin/activate  # For macOS/Linux
+### 🧪 Setup Instructions
+ ### 1. Clone the repository
+   ### git clone https://github.com/komalpadval@1322/moodify.git
+   ### cd moodify
 
 3. Install dependencies
 pip install -r requirements.txt
 
-
 4. Configure API Keys
 Replace the placeholders in music_recommender.py with your own credentials:
 
-Spotify: Get from Spotify Developer Dashboard
-YouTube: Get from Google Cloud Console
-replace it with your API keys 
+### Spotify: Get from Spotify Developer Dashboard
+### YouTube: Get from Google Cloud Console
+### replace it with your API keys 
 
-SPOTIFY_CLIENT_ID = 'your_client_id'
-SPOTIFY_CLIENT_SECRET = 'your_client_secret'
-YOUTUBE_API_KEY = 'your_youtube_api_key'
+### SPOTIFY_CLIENT_ID = 'your_client_id'
+### SPOTIFY_CLIENT_SECRET = 'your_client_secret'
+### YOUTUBE_API_KEY = 'your_youtube_api_key'
 
-5. Run the Flask app
-python app.py
-Navigate to http://127.0.0.1:5000 in your browser.
+### 5. Run the Flask app
+### python app.py
+### Navigate to http://127.0.0.1:5000 in your browser.
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 ## 📸 Screenshots
@@ -116,10 +108,10 @@ Navigate to http://127.0.0.1:5000 in your browser.
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 👩‍💻 Author
-Komal Padval
-Bachelor of Engineering in AI & Data Science
+### Komal Padval
+### Bachelor of Engineering in AI & Data Science
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 
-📃 License
-This project is intended for educational and academic use only.
+### 📃 License
+### This project is intended for educational and academic use only.
