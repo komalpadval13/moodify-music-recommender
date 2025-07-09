@@ -100,7 +100,7 @@ is a web application built using Flask that intelligently detects a user's mood 
 
 😊 Mood Input Page
 
-<img src="assets/screenshots/login.jpg" alt="Login" width="400"/>
+<img src="assets/screenshots/mood_input.jpg" alt="mood_input" width="400"/>
 
 Mood History Page
 
@@ -118,7 +118,7 @@ Mood History Page
 
 <img src="assets/screenshots/result3.jpg" alt="result3" width="400"/>
 ----------------------------------------------------------------------------------------------------------------------------------------
-👩‍💻 **Author**
+👩‍💻 *Author*
 
  Komal Padval
 
