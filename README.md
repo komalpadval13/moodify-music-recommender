@@ -66,23 +66,25 @@ is a web application built using Flask that intelligently detects a user's mood 
 
   1. Clone the repository
 
-        git clone https://github.com/komalpadval@1322/moodify.git
-        cd moodify
+          git clone https://github.com/komalpadval@1322/moodify.git
+          cd moodify
 
   2. Install dependencies
 
-        pip install -r requirements.txt
+         pip install -r requirements.txt
 
   3. Configure API Keys
     Replace the placeholders in music_recommender.py with your own credentials:
 
   Spotify: Get from Spotify Developer Dashboard
+
   YouTube: Get from Google Cloud Console
+
   replace it with your API keys 
 
-    SPOTIFY_CLIENT_ID = 'your_client_id'
-    SPOTIFY_CLIENT_SECRET = 'your_client_secret'
-    YOUTUBE_API_KEY = 'your_youtube_api_key'
+     SPOTIFY_CLIENT_ID = 'your_client_id'
+     SPOTIFY_CLIENT_SECRET = 'your_client_secret'
+     YOUTUBE_API_KEY = 'your_youtube_api_key'
 
   5. Run the Flask app using the below command
 
