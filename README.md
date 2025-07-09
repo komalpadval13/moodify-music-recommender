@@ -80,15 +80,15 @@ is a web application built using Flask that intelligently detects a user's mood 
 
      replace it with your API keys 
 
-     SPOTIFY_CLIENT_ID = 'your_client_id'
-     SPOTIFY_CLIENT_SECRET = 'your_client_secret'
-     YOUTUBE_API_KEY = 'your_youtube_api_key'
+        SPOTIFY_CLIENT_ID = 'your_client_id'
+        SPOTIFY_CLIENT_SECRET = 'your_client_secret'
+        YOUTUBE_API_KEY = 'your_youtube_api_key'
 
   5. Run the Flask app using the below command
 
          python app.py
 
-    Navigate to http://127.0.0.1:5000 in your browser.
+      Navigate to http://127.0.0.1:5000 in your browser.
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 # 📸 Screenshots
