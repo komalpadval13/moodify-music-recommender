@@ -16,13 +16,13 @@ is a web application built using Flask that intelligently detects a user's mood 
   - Recommends 10 songs based on detected mood
   - User chooses preferred platform: *Spotify* or *YouTube*
 
-- 👤 *User Authentication*:
+- 👤 User Authentication:
   - Sign up and login system with session management
 
-- 📊 *Mood History Tracking*:
+- 📊 Mood History Tracking:
   - Visualize past moods with simple charts
 
-- 🖥️ *Modern User Interface*:
+- 🖥️ Modern User Interface:
   - Clean, responsive UI using Bootstrap 5
 
 ----------------------------------------------------------------------------------------------------------------------------------------
@@ -63,15 +63,15 @@ is a web application built using Flask that intelligently detects a user's mood 
 
 
 **Setup Instructions**
+
   1. Clone the repository
 
-      git clone https://github.com/komalpadval@1322/moodify.git
-
-      cd moodify
+        git clone https://github.com/komalpadval@1322/moodify.git
+        cd moodify
 
   2. Install dependencies
 
-      pip install -r requirements.txt
+        pip install -r requirements.txt
 
   3. Configure API Keys
     Replace the placeholders in music_recommender.py with your own credentials:
@@ -86,7 +86,7 @@ is a web application built using Flask that intelligently detects a user's mood 
 
   5. Run the Flask app using the below command
 
-       python app.py
+         python app.py
 
   Navigate to http://127.0.0.1:5000 in your browser.
 
