@@ -73,17 +73,17 @@ pip install -r requirements.txt
 4. Configure API Keys
 Replace the placeholders in music_recommender.py with your own credentials:
 
-### Spotify: Get from Spotify Developer Dashboard
-### YouTube: Get from Google Cloud Console
-### replace it with your API keys 
+# Spotify: Get from Spotify Developer Dashboard
+# YouTube: Get from Google Cloud Console
+# replace it with your API keys 
 
-### SPOTIFY_CLIENT_ID = 'your_client_id'
-### SPOTIFY_CLIENT_SECRET = 'your_client_secret'
-### YOUTUBE_API_KEY = 'your_youtube_api_key'
+# SPOTIFY_CLIENT_ID = 'your_client_id'
+# SPOTIFY_CLIENT_SECRET = 'your_client_secret'
+# YOUTUBE_API_KEY = 'your_youtube_api_key'
 
-### 5. Run the Flask app
-### python app.py
-### Navigate to http://127.0.0.1:5000 in your browser.
+# 5. Run the Flask app
+# python app.py
+# Navigate to http://127.0.0.1:5000 in your browser.
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 ## 📸 Screenshots
@@ -108,10 +108,10 @@ Replace the placeholders in music_recommender.py with your own credentials:
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 👩‍💻 Author
-### Komal Padval
-### Bachelor of Engineering in AI & Data Science
+# Komal Padval
+# Bachelor of Engineering in AI & Data Science
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 
-### 📃 License
-### This project is intended for educational and academic use only.
+# 📃 License
+# This project is intended for educational and academic use only.
