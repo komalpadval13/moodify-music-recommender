@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mood History | Moodify</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(to bottom, #fdfbfb, #ebedee);
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .history-container {
+      max-width: 900px;
+      margin: 50px auto;
+      background: white;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    }
+    table {
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    img {
+      border-radius: 12px;
+      max-height: 350px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="history-container">
+    <h2 class="text-center mb-4">📈 Mood History - {{ session['username'] }}</h2>
+
+    {% if mood_data %}
+      <div class="table-responsive">
+        <table class="table table-striped table-hover text-center">
+          <thead class="table-dark">
+            <tr>
+              <th>Mood</th>
+              <th>Timestamp</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for entry in mood_data %}
+              <tr>
+                <td>{{ entry['Mood'] }}</td>
+                <td>{{ entry['Timestamp'] }}</td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+
+      {% if plot_path %}
+        <div class="text-center">
+          <img src="/{{ plot_path }}" class="img-fluid" alt="Mood History Chart">
+        </div>
+      {% endif %}
+    {% else %}
+      <p class="text-center mt-5 text-muted">No history data found.</p>
+    {% endif %}
+
+    <div class="text-center mt-4">
+      <a href="/home" class="btn btn-primary">⬅ Back to Home</a>
+    </div>
+  </div>
+</body>
+</html>

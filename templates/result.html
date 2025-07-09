@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mood-Based Music Recommendation</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #a18cd1, #fbc2eb); /* Purple gradient */
+            text-align: center;
+            padding: 40px;
+        }
+
+        h1 {
+            font-size: 2.8rem;
+            color: #333;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background-color: white;
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        select, button {
+            font-size: 16px;
+            padding: 12px 20px;
+            margin: 10px 10px 20px 10px;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+            cursor: pointer;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        ul.song-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul.song-list li {
+            background-color: #f0f4f8;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 10px;
+            transition: background 0.3s;
+        }
+
+        ul.song-list li:hover {
+            background-color: #dcefff;
+        }
+
+        a {
+            color: #1a73e8;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .mood-display {
+            font-size: 1.5rem;
+            color: #555;
+            margin-top: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎶 Mood-Based Music Recommendation</h1>
+        <div class="mood-display">Detected Mood: <strong>{{ mood.capitalize() }}</strong></div>
+        <p><em>{{ spoken_text }}</em></p>
+
+        <form method="POST" action="/recommend">
+            <input type="hidden" name="mood" value="{{ mood }}">
+            <label for="preference">Choose Platform:</label>
+            <select name="preference" required>
+                <option value="listen">Spotify</option>
+                <option value="watch">YouTube</option>
+            </select>
+            <br><br>
+            <button type="submit" class="btn recommend">🎵 Recommend Songs</button>
+        </form>
+
+        {% if songs %}
+        <h2>🎧 Top Songs for {{ mood.capitalize() }} Mood on {{ preference.capitalize() }}</h2>
+        <ul class="song-list">
+            {% for song in songs %}
+            <li><a href="{{ song.url }}" target="_blank">{{ song.title }}</a></li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+    </div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+# Ignore environment variables and secrets
+.env
+
+# Python cache files
+*.pyc
+__pycache__/
+.cache/
+
+# Database and log files
+*.db
+*.csv
+*.log
+
+# OS / Editor specific files
+.DS_Store
+Thumbs.db
+
+# VSCode and IDE configs (optional but common)
+.vscode/
+.idea/
+
+# Flask session or temp files
+instance/
+*.pid
