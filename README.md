@@ -112,7 +112,7 @@ Mood History Page
 
 🎬 Recommendation Result Page - YouTube
 
-<img src="assets/screenshots/lresult2" alt="result2" width="400"/>
+<img src="assets/screenshots/result2" alt="result2" width="400"/>
 
 🎶 Recommendation Result Page - Final UI
 
