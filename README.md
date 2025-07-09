@@ -66,7 +66,7 @@ is a web application built using Flask that intelligently detects a user's mood 
 
   1. Clone the repository
 
-          git clone https://github.com/komalpadval@1322/moodify.git
+          git clone https://github.com/komalpadval13/moodify-music-recommender.git
           cd moodify
 
   2. Install dependencies
