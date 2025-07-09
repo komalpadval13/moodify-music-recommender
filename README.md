@@ -110,13 +110,11 @@ Mood History Page
 
 <img src="assets/screenshots/result1.jpg" alt="result1" width="400"/>
 
+<img src="assets/screenshots/result2.jpg" alt="result2" width="400"/>
+
 🎬 Recommendation Result Page - YouTube
 
-<img src="assets/screenshots/result2" alt="result2" width="400"/>
-
-🎶 Recommendation Result Page - Final UI
-
-<img src="assets/screenshots/result3.jpg" alt="result3" width="400"/>
+<img src="assets/screenshots/result3" alt="result3" width="400"/>
 ----------------------------------------------------------------------------------------------------------------------------------------
 👩‍💻 *Author*
 
