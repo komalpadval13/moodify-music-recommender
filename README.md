@@ -95,7 +95,8 @@ is a web application built using Flask that intelligently detects a user's mood 
 
 🔐 Login Page
 
-![Login](assets/screenshots/login.jpg)
+<img src="assets/screenshots/login.jpg" alt="Login" width="400"/>
+
 
 😊 Mood Input Page
 
