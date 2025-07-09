@@ -42,51 +42,39 @@ is a web application built using Flask that intelligently detects a user's mood 
 
 ## 📁 Project Structure
 
-moodify/
-
-  app.py
-
-  modules/
-
-      auth_module.py
-
-      emotion_detector.py
-
-      music_recommender.py
-
-      history_tracker.py
-
-  templates/
-
-      login.html
-
-      index.html
-
-      result.html
-
-      history.html
-
-  static/
-
-      style.css
-
-  requirements.txt
-  
-  .gitignore
+      moodify/
+      ├── app.py
+      ├── modules/
+      │ ├── auth_module.py
+      │ ├── emotion_detector.py
+      │ ├── music_recommender.py
+      │ └── history_tracker.py
+      ├── templates/
+      │ ├── login.html
+      │ ├── index.html
+      │ ├── result.html
+      │ └── history.html
+      ├── static/
+      │ └── style.css
+      ├── requirements.txt
+      └── .gitignore
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 
 
 **Setup Instructions**
   1. Clone the repository
-     git clone https://github.com/komalpadval@1322/moodify.git
-     cd moodify
+
+      git clone https://github.com/komalpadval@1322/moodify.git
+
+      cd moodify
 
   2. Install dependencies
-     pip install -r requirements.txt
+
+      pip install -r requirements.txt
 
   3. Configure API Keys
-     Replace the placeholders in music_recommender.py with your own credentials:
+    Replace the placeholders in music_recommender.py with your own credentials:
 
   Spotify: Get from Spotify Developer Dashboard
   YouTube: Get from Google Cloud Console
@@ -98,9 +86,9 @@ moodify/
 
   5. Run the Flask app using the below command
 
-      python app.py
+       python app.py
 
-    Navigate to http://127.0.0.1:5000 in your browser.
+  Navigate to http://127.0.0.1:5000 in your browser.
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 # 📸 Screenshots
