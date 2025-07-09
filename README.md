@@ -100,24 +100,23 @@ is a web application built using Flask that intelligently detects a user's mood 
 
 😊 Mood Input Page
 
-![Mood Input](assets/screenshots/mood_input.jpg)
+<img src="assets/screenshots/login.jpg" alt="Login" width="400"/>
 
 Mood History Page
 
-![history](assets/screenshots/history.jpg)
+<img src="assets/screenshots/history.jpg" alt="history" width="400"/>
 
 🎵 Recommendation Result Page - Spotify
 
-![Result 1](assets/screenshots/result1.jpg)
+<img src="assets/screenshots/result1.jpg" alt="result1" width="400"/>
 
 🎬 Recommendation Result Page - YouTube
 
-![Result 2](assets/screenshots/result2.jpg)
+<img src="assets/screenshots/lresult2" alt="result2" width="400"/>
 
 🎶 Recommendation Result Page - Final UI
 
-![Result 3](assets/screenshots/result3.jpg)
-
+<img src="assets/screenshots/result3.jpg" alt="result3" width="400"/>
 ----------------------------------------------------------------------------------------------------------------------------------------
 👩‍💻 **Author**
 
