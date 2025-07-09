@@ -62,56 +62,58 @@ moodify/
 ---------------------------------------------------------------------------------------------------------------------------------------
 
 
-### 🧪 Setup Instructions
- ### 1. Clone the repository
-   ### git clone https://github.com/komalpadval@1322/moodify.git
-   ### cd moodify
+**Setup Instructions**
+  1. Clone the repository
+     git clone https://github.com/komalpadval@1322/moodify.git
+     cd moodify
 
-3. Install dependencies
-pip install -r requirements.txt
+  2. Install dependencies
+     pip install -r requirements.txt
 
-4. Configure API Keys
-Replace the placeholders in music_recommender.py with your own credentials:
+  3. Configure API Keys
+     Replace the placeholders in music_recommender.py with your own credentials:
 
-# Spotify: Get from Spotify Developer Dashboard
-# YouTube: Get from Google Cloud Console
-# replace it with your API keys 
+    Spotify: Get from Spotify Developer Dashboard
+    YouTube: Get from Google Cloud Console
+    replace it with your API keys 
 
-# SPOTIFY_CLIENT_ID = 'your_client_id'
-# SPOTIFY_CLIENT_SECRET = 'your_client_secret'
-# YOUTUBE_API_KEY = 'your_youtube_api_key'
+    SPOTIFY_CLIENT_ID = 'your_client_id'
+    SPOTIFY_CLIENT_SECRET = 'your_client_secret'
+    YOUTUBE_API_KEY = 'your_youtube_api_key'
 
-# 5. Run the Flask app
-# python app.py
-# Navigate to http://127.0.0.1:5000 in your browser.
+    5. Run the Flask app using the below command
+
+      python app.py
+
+      Navigate to http://127.0.0.1:5000 in your browser.
 
 ---------------------------------------------------------------------------------------------------------------------------------------
-## 📸 Screenshots
+# 📸 Screenshots
 
-### 🔐 Login Page
+🔐 Login Page
 ![Login](assets/screenshots/login.jpg)
 
-### 😊 Mood Input Page
+😊 Mood Input Page
 ![Mood Input](assets/screenshots/mood_input.jpg)
 
-### Mood History Page
+Mood History Page
 ![history](assets/screenshots/history.jpg)
 
-### 🎵 Recommendation Result Page - Spotify
+🎵 Recommendation Result Page - Spotify
 ![Result 1](assets/screenshots/result1.jpg)
 
-### 🎬 Recommendation Result Page - YouTube
+🎬 Recommendation Result Page - YouTube
 ![Result 2](assets/screenshots/result2.jpg)
 
-### 🎶 Recommendation Result Page - Final UI
+🎶 Recommendation Result Page - Final UI
 ![Result 3](assets/screenshots/result3.jpg)
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 👩‍💻 Author
-# Komal Padval
-# Bachelor of Engineering in AI & Data Science
+ Komal Padval
+Bachelor of Engineering in AI & Data Science
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 
-# 📃 License
-# This project is intended for educational and academic use only.
+ 📃 License
+ This project is intended for educational and academic use only.
